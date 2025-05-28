@@ -1,0 +1,76 @@
+
+.about-me{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    gap: 10rem;
+    padding: 4%;
+    flex-wrap: wrap;
+}
+
+.img-container{
+    margin-top: 4%;
+    flex: 0 0 auto;
+    margin-right: 3rem;
+}
+
+.profile-pic{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.info-box{
+    flex: 1;
+    max-width: 40%;
+    text-align: left;
+    margin-left: 0;
+}
+
+.projects{
+    text-align: center;
+    padding: 2rem;
+}
+
+.skills{
+    text-align: center;
+    padding: 1rem;
+}
+
+.skills-wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1rem;
+    padding:  0 2rem;
+}
+
+#coding-img{
+    width: 40%;
+}
+
+.other{
+    text-align: center;
+    padding: 1rem;
+}
+
+.other-wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 1.5rem;
+    width: 60%;
+    margin: 1rem auto;
+    padding:  0 2rem;
+}
+
+#other-img{
+    width: 40%;
+}
+
+.skills-wrapper img:hover,
+.other-wrapper img:hover{
+    transform: scale(1.1);
+}
