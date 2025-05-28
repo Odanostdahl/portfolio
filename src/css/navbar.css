@@ -1,0 +1,21 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-links a{
+    color: black;
+}

@@ -1,8 +1,9 @@
 import './css/App.css'
 
-function App() {
+function Home() {
 
   return (
+      <>
         <div className="container">
         <div className="name">
             <h1>Hi I am Oda Nøstdahl :) </h1>
@@ -19,8 +20,9 @@ function App() {
             <button className="portfolio-btn">Show portfolio</button>
 
         </div>
-    </div>
+        </div>
+      </>
   );
 }
 
-export default App
+export default Home
