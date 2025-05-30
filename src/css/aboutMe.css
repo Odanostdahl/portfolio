@@ -52,6 +52,17 @@
     width: 40%;
 }
 
+.language-label{
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    margin-top: 0.5rem;
+}
+
+.code-language:hover .language-label,
+.other:hover .language-label{
+    opacity: 1;
+}
+
 .other{
     text-align: center;
     padding: 1rem;
@@ -74,4 +85,6 @@
 .other-wrapper img:hover{
     transform: scale(1.1);
 }
+
+
 

@@ -16,7 +16,6 @@ import react from './image/react.png'
 function AboutMe() {
     return (
         <>
-            <Section direction="up">
             <div className="about-me">
                 <div className="info-box">
                     <h1>Get to know me</h1>
@@ -34,7 +33,6 @@ function AboutMe() {
                     <img src={profilePicture} className="profile-pic"/>
                 </div>
             </div>
-        </Section>
 
         <Section direction="up">
             <div className="skills">
@@ -43,40 +41,37 @@ function AboutMe() {
                 <div className="skills-wrapper">
                     <div className="code-language">
                         <img id="coding-img" src={java}/>
-                        <p>Java</p>
+                        <p className="language-label">Java</p>
                     </div>
 
                     <div className="code-language">
                         <img id="coding-img" src={csharp}/>
-                        <p>C#</p>
-                        <div className="progress-bar">
-                            <div className="fill-progress" style={{"--progress": "80%"} as React.CSSProperties}></div>
-                        </div>
+                        <p className="language-label">C#</p>
                     </div>
 
                     <div className="code-language">
                         <img id="coding-img" src={javascript}/>
-                        <p>JavaScript</p>
+                        <p className="language-label">JavaScript</p>
                     </div>
 
                     <div className="code-language">
                         <img id="coding-img" src={typescript}/>
-                        <p>Typescript</p>
+                        <p className="language-label">Typescript</p>
                     </div>
 
                     <div className="code-language">
                         <img id="coding-img" src={python}/>
-                        <p>Python</p>
+                        <p className="language-label">Python</p>
                     </div>
 
                     <div className="code-language">
                         <img id="coding-img" src={html}/>
-                        <p>HTML/CSS</p>
+                        <p className="language-label">HTML/CSS</p>
                     </div>
 
                     <div className="code-language">
                         <img id="coding-img" src={c}/>
-                        <p>C</p>
+                        <p className="language-label">C</p>
                     </div>
                 </div>
 
@@ -89,22 +84,22 @@ function AboutMe() {
                 <div className="other-wrapper">
                     <div className="other">
                         <img id="other-img" src={docker}/>
-                        <p>Docker</p>
+                        <p className="language-label">Docker</p>
                     </div>
 
                     <div className="other">
                         <img id="other-img" src={mongodb}/>
-                        <p>MongoDB</p>
+                        <p className="language-label">MongoDB</p>
                     </div>
 
                     <div className="other">
                         <img id="other-img" src={react}/>
-                        <p>React</p>
+                        <p className="language-label">React</p>
                     </div>
 
                     <div className="other">
                         <img id="other-img" src={spring}/>
-                        <p>Spring boot</p>
+                        <p className="language-label">Spring boot</p>
                     </div>
                 </div>
             </div>
@@ -112,22 +107,18 @@ function AboutMe() {
 
     <Section direction="left">
             <div className="education">
-                <div className="timeline">
-                    <div className="timeline-item">
-                        <div className="timeline-dot"/>
-                        <div className="timeline-content">
                             <h3>Høyskolen Kristiania</h3>
                             <p>Bachelor i informasjonsteknologi – programmering</p>
-                            <span className="timeline-date">2023–2026</span>
-                        </div>
-                    </div>
-                </div>
+                            <p>2023–2026</p>
             </div>
     </Section>
 
     <Section direction="up">
             <div className="volenteer">
                 <h1>Volunteering</h1>
+                <p>Kvinner&IT</p>
+                <p>JavaZone</p>
+                <p>Girl tech fest</p>
             </div>
     </Section>
         </>

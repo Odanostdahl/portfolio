@@ -1,4 +1,4 @@
-
+import github from './image/github.png'
 function Portfolio() {
     return (
         <>
@@ -18,7 +18,9 @@ function Portfolio() {
                         <h2>PEATA project</h2>
                         <p>Tekst om prosjektet</p>
                         <a href="link">
-                            <button className="link-btn">Github ikon</button>
+                            <button className="link-btn">
+                                <img src={github} alt="GitHub" style={{width: '24px', height: '24px'}}/>
+                            </button>
                         </a>
                     </div>
 
@@ -26,7 +28,9 @@ function Portfolio() {
                         <h2>Event-system</h2>
                         <p>Tekst om prosjektet</p>
                         <a href="link">
-                            <button className="link-btn">Github ikon</button>
+                            <button className="link-btn">
+                                <img src={github} alt="GitHub" style={{width: '24px', height: '24px'}}/>
+                            </button>
                         </a>
                     </div>
                 </div>
