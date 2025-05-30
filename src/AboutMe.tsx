@@ -81,32 +81,34 @@ function AboutMe() {
             <div className="other-skills">
                 <h2>Other</h2>
                 <div className="other-wrapper">
-                <div className="other">
-                    <img id="other-img" src={docker}/>
-                    <p>Docker</p>
-                </div>
+                    <div className="other">
+                        <img id="other-img" src={docker}/>
+                        <p>Docker</p>
+                    </div>
 
-                <div className="other">
-                    <img id="other-img" src={mongodb}/>
-                    <p>MongoDB</p>
-                </div>
+                    <div className="other">
+                        <img id="other-img" src={mongodb}/>
+                        <p>MongoDB</p>
+                    </div>
 
-                <div className="other">
-                    <img id="other-img" src={spring}/>
-                    <p>Spring boot</p>
-                </div>
+                    <div className="other">
+                        <img id="other-img" src={react}/>
+                        <p>React</p>
+                    </div>
 
-                <div className="other">
-                    <img id="other-img" src={react}/>
-                    <p>React</p>
-                </div>
+                    <div className="other">
+                        <img id="other-img" src={spring}/>
+                        <p>Spring boot</p>
+                    </div>
                 </div>
             </div>
 
+            <div className="education">
+                <h1>Education</h1>
+            </div>
 
-            <div className="projects">
-                <h1>Latest projects </h1>
-                <p>Link til github?</p>
+            <div className="volenteer">
+                <h1>Volunteering</h1>
             </div>
         </>
     );

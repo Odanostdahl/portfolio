@@ -1,10 +1,10 @@
 .navbar{
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
     background-color: pink;
-    padding: 1rem 2rem;
     position: sticky;
+    padding-right: 2rem;
     top: 0;
     z-index: 1000;
     width: 100%;
@@ -13,7 +13,7 @@
 .nav-links{
     list-style: none;
     display: flex;
-    gap: 1.5rem;
+    gap: 3rem;
 }
 
 .nav-links a{

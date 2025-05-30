@@ -1,4 +1,5 @@
 import './css/App.css'
+import AboutMe from "./AboutMe.tsx";
 
 function Home() {
 
@@ -21,6 +22,8 @@ function Home() {
 
         </div>
         </div>
+
+          <AboutMe />
       </>
   );
 }
