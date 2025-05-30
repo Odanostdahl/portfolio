@@ -1,5 +1,6 @@
 import profilePicture from './image/mio.jpeg'
 import './css/aboutMe.css'
+import { Section} from "./animation/Section.tsx";
 import java from './image/java.png'
 import csharp from './image/Csharp.png'
 import javascript from './image/Javascript.png'
@@ -15,9 +16,10 @@ import react from './image/react.png'
 function AboutMe() {
     return (
         <>
+            <Section direction="up">
             <div className="about-me">
                 <div className="info-box">
-                    <h1>Oda Nøstdahl</h1>
+                    <h1>Get to know me</h1>
                     <p>
                         Hi, I´m Oda and I´m currently in my second year of a Bachelor's degree in programming at
                         Kristiania.
@@ -32,7 +34,9 @@ function AboutMe() {
                     <img src={profilePicture} className="profile-pic"/>
                 </div>
             </div>
+        </Section>
 
+        <Section direction="up">
             <div className="skills">
                 <h1>SKILLS</h1>
                 <h3>Coding Languages</h3>
@@ -77,7 +81,9 @@ function AboutMe() {
                 </div>
 
             </div>
+        </Section>
 
+    <Section direction="up">
             <div className="other-skills">
                 <h2>Other</h2>
                 <div className="other-wrapper">
@@ -102,14 +108,28 @@ function AboutMe() {
                     </div>
                 </div>
             </div>
+    </Section>
 
+    <Section direction="left">
             <div className="education">
-                <h1>Education</h1>
+                <div className="timeline">
+                    <div className="timeline-item">
+                        <div className="timeline-dot"/>
+                        <div className="timeline-content">
+                            <h3>Høyskolen Kristiania</h3>
+                            <p>Bachelor i informasjonsteknologi – programmering</p>
+                            <span className="timeline-date">2023–2026</span>
+                        </div>
+                    </div>
+                </div>
             </div>
+    </Section>
 
+    <Section direction="up">
             <div className="volenteer">
                 <h1>Volunteering</h1>
             </div>
+    </Section>
         </>
     );
 }
