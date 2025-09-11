@@ -20,7 +20,7 @@ function Portfolio() {
             github: "https://github.com/amalie246/PEATA"
         },
         {
-            title: "Event Management System",
+            title: "Friend Calendar",
             description: "Kommer straks:)",
             tech: ["Java", "Spring Boot", "MongoDB"],
             github: "https://github.com/your-username/event-system"
