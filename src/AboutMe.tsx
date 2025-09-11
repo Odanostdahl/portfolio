@@ -101,8 +101,8 @@ function AboutMe() {
                 pb={0}
                 position="relative"
             >
-                <Heading size="lg" mb={2}>Høyskolen Kristiania</Heading>
-                <Text>Bachelor i informasjonsteknologi – programmering</Text>
+                <Heading size="lg" mb={2}>Kristiania University College</Heading>
+                <Text>Bachelor in Information Technology – Programming</Text>
                 <Text>2023–2026</Text>
 
                 <Box w="100%" overflow="hidden" lineHeight={0} mb="0" mt="0">

@@ -15,19 +15,19 @@ function Portfolio() {
     const projects = [
         {
             title: "PEATA Project",
-            description: "En innovativ løsning for bedre tilgjengelighet og brukeropplevelse",
+            description: "An innovative solution for better accessibility and user experience",
             tech: ["React", "TypeScript", "Node.js"],
             github: "https://github.com/amalie246/PEATA"
         },
         {
             title: "Friend Calendar",
-            description: "Kommer straks:)",
+            description: "Coming soon:)",
             tech: ["Java", "Spring Boot", "MongoDB"],
             github: "https://github.com/your-username/event-system"
         },
         {
             title: "Personal Portfolio",
-            description: "Denne nettsiden! Bygget med React, TypeScript og Chakra UI",
+            description: "This website! Built with React, TypeScript and Chakra UI",
             tech: ["React", "TypeScript", "Chakra UI"],
             github: "https://github.com/Odanostdahl/portfolio"
         }
@@ -107,7 +107,7 @@ function Portfolio() {
                                     borderColor: "#f59e0b"
                                 }}
                                 transition="all 0.2s ease"
-                                leftIcon={<Image src={github} alt="GitHub" boxSize="14px" />}
+                                leftIcon={<Image src={github} alt="GitHub" boxSize="18px" />}
                             >
                                 View Code
                             </Button>
