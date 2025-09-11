@@ -39,7 +39,9 @@ function Navbar() {
             style={{
                 height: animatedHeight,
             }}
-            bg="white"
+            bg="rgba(255, 255, 255, 0.95)"
+            backdropFilter="blur(10px)"
+            borderBottom="1px solid #f3f4f6"
             position="sticky"
             top={0}
             zIndex={1000}
@@ -50,8 +52,8 @@ function Navbar() {
                 {/* Navn vises først ETTER scroll */}
                 <MotionText
                     fontSize="2xl"
-                    fontWeight="bold"
-                    color="black"
+                    fontWeight="500"
+                    color="#2c3e50"
                     initial={{ opacity: 0, x: -20 }}
                     animate={{
                         opacity: isPastThreshold ? 1 : 0,
@@ -66,7 +68,7 @@ function Navbar() {
                 <UnorderedList
                     styleType="none"
                     display="flex"
-                    gap="3rem"
+                    gap="2.5rem"
                     m={0}
                 >
                     {[
@@ -78,10 +80,15 @@ function Navbar() {
                             <ChakraLink
                                 as={RouterLink}
                                 to={item.to}
-                                fontWeight="bold"
-                                color="black"
-                                _hover={{ color: "gray.600" }}
-                                pr="2rem"
+                                fontWeight="400"
+                                color="#2c3e50"
+                                fontSize="md"
+                                _hover={{ 
+                                    color: "#fbbf24",
+                                    textDecoration: "none"
+                                }}
+                                transition="color 0.2s ease"
+                                pr="1.5rem"
                             >
                                 {item.label}
                             </ChakraLink>

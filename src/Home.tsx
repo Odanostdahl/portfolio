@@ -1,5 +1,6 @@
 import './css/App.css'
 import AboutMe from "./AboutMe.tsx";
+import { Link } from "react-router-dom";
 
 function Home() {
 
@@ -8,7 +9,7 @@ function Home() {
         <div className="container">
         <div className="name">
             <h1>Hi I am Oda Nøstdahl :) </h1>
-            <p>~ I´m currently in my second year of a Bachelor's degree in programming at Kristiania</p>
+            <p>~ I´m currently in my third year of a Bachelor's degree in programming at Kristiania</p>
         </div>
 
 
@@ -17,9 +18,9 @@ function Home() {
                 <button className="connect-btn">Connect with me</button>
             </a>
 
-
-            <button className="portfolio-btn">Show portfolio</button>
-
+            <Link to="/portfolio">
+                <button className="portfolio-btn">Show portfolio</button>
+            </Link>
         </div>
         </div>
 
