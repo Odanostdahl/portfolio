@@ -35,12 +35,12 @@ function Portfolio() {
 
     return (
         <Box p={8} minH="100vh" maxW="1200px" mx="auto">
-            <Box textAlign="left" mb={12}>
+            <Box textAlign="center" mb={12}>
                 <Heading 
                     size="2xl" 
                     mb={4}
                     color="#2c3e50"
-                    fontFamily="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif"
+                    fontFamily="'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif"
                 >
                     My Projects
                 </Heading>
@@ -59,11 +59,6 @@ function Portfolio() {
                         borderColor="#e9ecef"
                         p={6}
                         h="100%"
-                        _hover={{
-                            boxShadow: "0 8px 25px rgba(0, 0, 0, 0.1)",
-                            transform: "translateY(-2px)"
-                        }}
-                        transition="all 0.2s ease"
                     >
                         <Flex direction="column" h="100%">
                             <Heading size="lg" mb={3} color="#2c3e50">

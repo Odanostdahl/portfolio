@@ -3,6 +3,7 @@ import Navbar from "./navBar.tsx";
 import AboutMe from "./AboutMe.tsx";
 import Home from "./Home.tsx";
 import Portfolio from "./Portfolio.tsx";
+import Connect from "./Connect.tsx";
 
 function AppRoutes(){
     return(
@@ -12,6 +13,7 @@ function AppRoutes(){
                 <Route path="/" element={<Home />}/>
                 <Route path="/about" element={<AboutMe />}/>
                 <Route path="/portfolio" element={<Portfolio />}/>
+                <Route path="/connect" element={<Connect />}/>
             </Routes>
         </Router>
     )

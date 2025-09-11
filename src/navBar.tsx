@@ -64,7 +64,6 @@ function Navbar() {
                     ODA NØSTDAHL
                 </MotionText>
 
-                {/* Menyvalgene vises alltid */}
                 <UnorderedList
                     styleType="none"
                     display="flex"
@@ -73,7 +72,7 @@ function Navbar() {
                 >
                     {[
                         { label: "Home", to: "/" },
-                        { label: "About me", to: "/about" },
+                        { label: "Connect", to: "/connect" },
                         { label: "Portfolio", to: "/portfolio" },
                     ].map((item) => (
                         <ListItem key={item.to}>
