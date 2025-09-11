@@ -4,20 +4,13 @@ import {
     Heading, 
     Text, 
     Grid, 
-    GridItem, 
     Button,
     Image,
     Flex,
-    Badge,
-    useColorModeValue
+    Badge
 } from '@chakra-ui/react'
-import { motion } from 'framer-motion'
-
-const MotionBox = motion(Box)
 
 function Portfolio() {
-    const cardBg = useColorModeValue('rgba(255, 255, 255, 0.1)', 'rgba(0, 0, 0, 0.1)')
-    const cardBorder = useColorModeValue('rgba(255, 255, 255, 0.2)', 'rgba(255, 255, 255, 0.1)')
 
     const projects = [
         {
