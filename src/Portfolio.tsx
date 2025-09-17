@@ -21,9 +21,9 @@ function Portfolio() {
         },
         {
             title: "Friend Calendar",
-            description: "Coming soon:)",
+            description: "Work in progress:)",
             tech: ["Java", "Spring Boot", "MongoDB"],
-            github: "https://github.com/your-username/event-system"
+            github: "https://github.com/418NotFound/FriendCalendar"
         },
         {
             title: "Personal Portfolio",
